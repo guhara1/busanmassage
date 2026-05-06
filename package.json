@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "build": "node scripts/build-static.mjs && node scripts/patch-extra-regions.mjs && node scripts/patch-domain.mjs && node scripts/patch-visibility-branding.mjs"
+    "build": "node scripts/build-static.mjs && node scripts/patch-extra-regions.mjs && node scripts/patch-domain.mjs && node scripts/patch-visibility-branding.mjs && node scripts/patch-footer-clean.mjs"
   }
 }
