@@ -44,7 +44,7 @@ function pathFor(...parts) { return parts.map(enc).join("/"); }
 function write(path, html) { const file = join("out", path); mkdirSync(dirname(file), { recursive: true }); writeFileSync(file, html, "utf8"); }
 
 function nav() {
-  return `<header class="topbar"><div class="top-inner"><a class="brand" href="/"><span class="brand-mark">B</span>${brand}</a><nav class="nav"><a href="/#price">요금표</a><a href="/#types">마사지 종류</a><a href="/#areas">지역선택</a><a href="/#faq">FAQ</a><a href="${tel}">전화예약</a></nav><a class="call-btn" href="${tel}">${phone}</a></div></header>`;
+  return `<header class="topbar"><div class="top-inner"><a class="brand" href="/"><span class="brand-mark">B</span>${brand}</a><nav class="nav"><a href="/#price">요금표</a><a href="/#types">마사지 종류</a><a href="/#areas">지역선택</a><a href="/blog/">블로그</a><a href="/#faq">FAQ</a><a href="${tel}">전화예약</a></nav><a class="call-btn" href="${tel}">${phone}</a></div></header>`;
 }
 
 function seo(title, description, url) {
