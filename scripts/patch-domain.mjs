@@ -3,7 +3,7 @@ import { join } from "node:path";
 
 const outDir = "out";
 const oldDomain = "https://busanmassage.netlify.app";
-const newDomain = "https://busanrun.netlify.app";
+const newDomain = "https://busanrun1.netlify.app";
 const targetExtensions = new Set([".html", ".xml", ".txt"]);
 
 function walk(dir) {
