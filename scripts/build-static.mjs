@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 const siteUrl = "https://busanmassage.netlify.app";
-const brand = "부산달리기";
+const brand = "부산마사지";
 const phone = "0508-202-4683";
 const tel = "tel:05082024683";
 

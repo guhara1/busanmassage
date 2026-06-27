@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """IndexNow 즉시 색인 통보 스크립트.
 
-부산달리기 사이트의 모든 URL을 IndexNow 프로토콜로 Bing / Naver 등
+부산마사지 사이트의 모든 URL을 IndexNow 프로토콜로 Bing / Naver 등
 참여 검색엔진에 즉시 통보합니다. 외부 의존성 없이 표준 라이브러리만 사용합니다.
 
 사용법:
